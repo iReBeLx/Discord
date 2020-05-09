@@ -41,7 +41,7 @@
     background-clip: border-box;
     background-attachment: fixed;
     background-origin: border-box;
-    -webkit-mask: radial-gradient(#000 40%, transparent);
+    -webkit-mask: radial-gradient(#000 20%, transparent);
     z-index: 0;
     opacity: var(--backgroundImageOpacity);
   }
