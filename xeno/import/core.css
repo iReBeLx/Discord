@@ -3,12 +3,12 @@
   --backgroundImage: url('https://wallpapercave.com/wp/wp2757852.gif');
   --backgroundImageOpacity: ;
   --homeButtonImage: url('https://img4.goodfon.com/original/1920x1080/0/80/materyi-volk-past-klyki-goriashchie-glaza-oboroten-tma-iazyk.jpg');
-  --uiGradient1: #f4690d;
-  --uiGradient2: #f8cb16;
+  --uiGradient1: #4b90db;
+  --uiGradient2: #822107;
   --customFont: 'Ubuntu';
   --textNormal: #dcddde;
   --textMuted: #72767d;
-  --textLinks: Orange;
+  --textLinks: CornflowerBlue;
   --channelsDefault: #e4e4e4;
   --channelsNormal: #d6d6d6;
   --channelsHover: #ebebeb;
@@ -41,7 +41,7 @@
     background-clip: border-box;
     background-attachment: fixed;
     background-origin: border-box;
-    -webkit-mask: radial-gradient(#292828 40%, transparent);
+    -webkit-mask: radial-gradient(#000 40%, transparent);
     z-index: 0;
     opacity: var(--backgroundImageOpacity);
   }
