@@ -596,8 +596,7 @@ svg[name="Nova_Discord"] {display: none!important;}
     transform .4s ease,
     opacity .2s ease;
   transform: translateX(-100%);
-  opacity: 1;
-  filter: blur(100px);
+  opacity: 0;
 }
 .modeSelected-1zApJ_ .content-3at_AU:after,
 .modeSelected-1zApJ_:hover .content-3at_AU:after {
