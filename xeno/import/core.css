@@ -519,7 +519,8 @@ svg[name="Nova_Discord"] {display: none!important;}
 }
 .selected-aXhQR6 .layout-2DM8Md,
 .clickable-1JJAn8:hover .layout-2DM8Md {
-  background-color: rgba(0,0,0,0.6) !important;
+  background-color: transparent!important;
+;
   padding: 0 8px 0 20px;
 }
 .layout-2DM8Md:after {
@@ -536,6 +537,7 @@ svg[name="Nova_Discord"] {display: none!important;}
     opacity .2s ease;
   transform: translateX(-100%);
   opacity: 0;
+  filter: blur(100px);
 }
 .selected-aXhQR6 .layout-2DM8Md:after {
   opacity: 1;
