@@ -537,7 +537,7 @@ svg[name="Nova_Discord"] {display: none!important;}
     opacity .2s ease;
   transform: translateX(-100%);
   opacity: .85;
-  filter: blur(100px);
+
 }
 .selected-aXhQR6 .layout-2DM8Md:after {
   opacity: 1;
