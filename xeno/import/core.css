@@ -44,6 +44,7 @@
     -webkit-mask: radial-gradient(#000 40%, transparent);
     z-index: 0;
     opacity: var(--backgroundImageOpacity);
+    filter: blur(10px);
   }
   .app-19_DXt {z-index: 200;}
   /* remove background color */
