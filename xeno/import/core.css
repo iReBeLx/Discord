@@ -379,7 +379,7 @@ svg[name="Nova_Discord"] {display: none!important;}
   background-origin: border-box;
   z-index: 0;
   opacity: .15;
-  filter: blur(10px);
+  filter: blur(20px);
 }
 .userPopout-3XzG_A>* {z-index: 10;}
 .topSectionPlaying-1J5E4n,
@@ -521,7 +521,7 @@ svg[name="Nova_Discord"] {display: none!important;}
 }
 .selected-aXhQR6 .layout-2DM8Md,
 .clickable-1JJAn8:hover .layout-2DM8Md {
-  background-color: transparent!important;
+  background-color: rgb(0, 102, 204)!important;
 ;
   padding: 0 8px 0 20px;
 }
