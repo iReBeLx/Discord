@@ -1,5 +1,4 @@
 :root {
- --backgroundtint-brightness-set: var(--BG-tint-brightness, 0);
   --backgroundColor: #101010;
   --backgroundImage: url('https://wallpapercave.com/wp/wp2757852.gif');
   --backgroundImageOpacity: ;
@@ -520,7 +519,7 @@ svg[name="Nova_Discord"] {display: none!important;}
 }
 .selected-aXhQR6 .layout-2DM8Md,
 .clickable-1JJAn8:hover .layout-2DM8Md {
-  background-color: 	rgb(255, 230, 230)!important;
+  background-color: 	transparent!important;
 ;
   padding: 0 8px 0 20px;
 }
@@ -537,7 +536,7 @@ svg[name="Nova_Discord"] {display: none!important;}
     transform .4s ease,
     opacity .2s ease;
   transform: translateX(-100%);
-  opacity: .85;
+  opacity: 1;
   filter: blur(100px);
 }
 .selected-aXhQR6 .layout-2DM8Md:after {
