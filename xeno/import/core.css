@@ -5,6 +5,8 @@
   --homeButtonImage: url('https://i.imgur.com/233d55Y.gif');
   --uiGradient1: #4b90db;
   --uiGradient2: #822107;
+  --uiGradient3: #242424;
+  --uiGradient4: #000000;
   --customFont: 'Ubuntu';
   --textNormal: #dcddde;
   --textMuted: #72767d;
@@ -30,8 +32,8 @@
   /* background image */
   .appMount-3lHmkl::after {
     content: "";
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     position: absolute;
     pointer-events: none;
     background-image: var(--backgroundImage);
@@ -530,7 +532,7 @@ svg[name="Nova_Discord"] {display: none!important;}
   top: 0;
   height: 100%;
   width: 4px;
-  background: linear-gradient(80deg, var(--uiGradient1), var(--uiGradient2));
+  background: linear-gradient(80deg, var(--uiGradient3), var(--uiGradient4));
   border-radius: 50px;
   transition:
     transform .4s ease,
