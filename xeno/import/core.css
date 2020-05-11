@@ -1,4 +1,5 @@
 :root {
+ --backgroundtint-brightness-set: var(--BG-tint-brightness, 0);
   --backgroundColor: #101010;
   --backgroundImage: url('https://wallpapercave.com/wp/wp2757852.gif');
   --backgroundImageOpacity: ;
