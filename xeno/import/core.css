@@ -451,41 +451,6 @@ svg[name="Nova_Discord"] {display: none!important;}
 .players-1zg2l8,
 .footer-3J5oP4,
 .news-2KwXHF {background-color: transparent!important;}
-
-/*** Settings ***/
-/** Make the settings small again **/
-/* Keep everything in background visible */
-.layer-3QrUeG.baseLayer-35bLyl.stop-animations {
-    opacity: 1 !important;
-    transform: scale(1) !important;
-    animation: none !important;
-}
-.layer-3QrUeG.baseLayer-35bLyl.start-animations {
-    animation: none !important;
-}
-/* Make Background */
-.standardSidebarView-3F1I7i {
-    width: 1040px;
-    height: 720px;
-    position: fixed;
-    top: 50% !important; /* Override Windows platform class */
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: var(--sttingsImage) !important;
-    border-radius: var(--br);
-}
-
-
-@media only screen and (max-height: 750px) { 
-    .standardSidebarView-3F1I7i {
-        height: 100%;
-    }
-}
-@media only screen and (max-width: 1070px) { 
-    .standardSidebarView-3F1I7i {
-        width: 100%;
-    }
-}
 /* == Pings == */
 .wrapper-3WhCwL {
   color: #fff!important;
