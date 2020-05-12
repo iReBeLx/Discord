@@ -473,7 +473,6 @@ svg[name="Nova_Discord"] {display: none!important;}
     transform: translate(-50%, -50%);
     background: var(--sttingsImage);
     border-radius: var(--br);
-    backdrop-filter: var(--bg-blur);
 }
 
 
