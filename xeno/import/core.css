@@ -470,7 +470,7 @@ svg[name="Nova_Discord"] {display: none!important;}
     top: 50% !important; /* Override Windows platform class */
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(0,0,0,0.75);
+    background: rgb(0, 0, 0);
     border-radius: var(--br);
     backdrop-filter: var(--bg-blur);
 }
