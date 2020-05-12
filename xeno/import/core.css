@@ -3,6 +3,7 @@
   --backgroundImage: url('https://wallpapercave.com/wp/wp2757852.gif');
   --backgroundImageOpacity: ;
   --homeButtonImage: url('https://i.imgur.com/233d55Y.gif');
+  --sttingsImage: url('https://i.imgur.com/LC99zve.png');
   --uiGradient1: #4b90db;
   --uiGradient2: #822107;
   --uiGradient3: #242424;
@@ -470,7 +471,7 @@ svg[name="Nova_Discord"] {display: none!important;}
     top: 50% !important; /* Override Windows platform class */
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgb(0, 0, 0);
+    background: var(--sttingsImage);
     border-radius: var(--br);
     backdrop-filter: var(--bg-blur);
 }
