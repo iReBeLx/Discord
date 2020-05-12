@@ -484,6 +484,40 @@ svg[name="Nova_Discord"] {display: none!important;}
         width: 100%;
     }
 }
+/** My Account **/
+.marginTop20-3TxNs6 {
+    margin-bottom: 16px;
+}
+.userInfoViewing-16kqK3 .flex-1xMQg5 .flexChild-faoVW3 .marginBottom20-32qID7 + div .selectable-2GY4I1 {
+    filter: blur(5px);
+    transition: filter .5s;
+}
+
+.userInfoViewing-16kqK3 .flex-1xMQg5 .flexChild-faoVW3 .marginBottom20-32qID7 + div .selectable-2GY4I1:hover{
+    filter: blur(0);
+}
+.cardPrimary-1Hv-to {
+    background: var(--bg-element);
+}
+.lookOutlined-3sRXeN.colorRed-1TFJan {
+    color: white;
+    border-color: transparent;
+    background: red;
+    border-radius: var(--br);
+}
+.theme-dark .footer-3rDWdC {
+    background-color: transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
+    box-shadow: none;
+}
+.checkbox-1ix_J3.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.box-mmYMsp {
+    border-radius: 50px;
+    border: 3px solid;
+}
+.divider-3573oO.marginTop20-3TxNs6 {
+    display: none;
+}
+
 /* == Pings == */
 .wrapper-3WhCwL {
   color: #fff!important;
