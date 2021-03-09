@@ -1,11 +1,11 @@
 :root {
-  --backgroundColor: #000;
-  --backgroundImage: url('https://1.bp.blogspot.com/-ag1lrK1s6lo/Ud6E-V7LNFI/AAAAAAAABO8/Z6YJ8XmjWs4/s1600/Sky+Anime+Landscape+33.jpg');
-  --backgroundPosition: center;
-  --backgroundSize: cover;
+  --backgroundColor: transparent;
+  --backgroundImage: url('');
+  --backgroundPosition: top;
+  --backgroundSize: contain;
   --backgroundRepeat: no-repeat;
   --backgroundBlur: 0;
-  --backgroundOpacity: 0.5;
+  --backgroundOpacity: 0.7;
 }
 .appMount-3lHmkl, body {
   background-color: var(--backgroundColor) !important;
@@ -23,12 +23,15 @@
 /* transparent background */
 .app-2rEoOp,
 .wrapper-1Rf91z,
+.wrapper-2qzCYF,
+.wrapper-2qzCYF.minimum-28Z35l,
 .scroller-2TZvBN,
 .sidebar-2K8pFh,
 .chat-3bRxxu,
 .layer-3QrUeG,
 .container-1r6BKw.themed-ANHk51,
 .members-1998pB,
+.members-1998pB>div,
 .messages-3amgkR,
 .container-PNkimc,
 .panels-j1Uci_,
@@ -40,10 +43,11 @@
 .scroller-2XE8rp,
 .scroller-9moviB,
 .scroller-305q3I,
+.notice-2X5hT5,
 .container-1D34oG,
-.perksModal-fSYqOq,
 .header-39GIC8,
 .inviteToolbar-3F-l2g,
+.container-3w7J-x,
 .contentRegion-3nDuYy,
 .sidebarRegionScroller-3MXcoP,
 .nowPlayingColumn-2sl4cE,
@@ -61,4 +65,3 @@
 }
 .searchBar-6Kv8R2,
 .header-2o-2hj {box-shadow: none !important;}
-.bg-AYqtMd {-webkit-mask: linear-gradient(to bottom, black, transparent 75%)}
